@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhay kumar portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+       } 
+body{
+    background-color: rgb(7, 7, 48);
+    color: white;
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(44, 44, 138);
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(230, 211, 201);
+    font-size: 1.03rem;
+}
+.left{
+    font-size: 2rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    
+}
+.firstsection > div > div{
+    margin: 10px 0;
+
+}
+.leftsection{
+    
+    font-size: 3rem;
+    margin: 70px 0 ;
+    padding-left: 30px;
+}
+.rightsection img{
+    width: 40%;
+    margin-left: 50px;  
+    padding-left: 30%;
+   
+}
+.purple{
+    color: rgb(197, 152, 240);
+}
+.text-gray{
+    color: gray;
+    margin-bottom: 5px;
+}
+.image-top{
+width: 23px;
+position: relative;
+width: 40px;
+position: relative;
+top: -48px;
+left: -18px;
+
+}
+.verticaltitle{
+position: relative;
+top: 60px;
+width: 280px;
+right: 88px;
+font-size: 20px;
+font-weight:bold;
+
+}
+.desc{
+    position: relative;
+    width: 200px;
+    top:73px;
+    right:88px;
+
+}
+#element{
+    color: rgb(197, 152, 240);
+}
+.secondSection{
+    max-width: 80vw;
+    margin:auto;
+    height: 80vh;
+}
+.secondSection h1 {
+   font-size: 1.9rem; 
+}
+hr{
+    align-items: center;
+    margin: 20px 60px;
+}
+.secondSection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical{
+height: 93px;
+width: 1px;
+background-color: white;
+margin: 0 190px;
+}
+footer{
+    background-color: rgb(44, 44, 138);;
+    height: 120px;
+}
+.footer{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer1{
+    margin: 0 40px;
+}
+.footer1:hover{
+    color: rgb(227, 103, 36);
+    font-size: 1.1rem;
+}
+footer .footer1 a{
+    text-decoration: none;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Abhay's portfolio</div>
+            <div class="right">
+                <ul>
+                    
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./service.html">Services</a></li>
+                    <li><a href="./project.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact me</a></li>
+                    <li><a href="/">Home</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My Name Is <span class="purple">Abhay</span> 
+                <div>i'm a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="developer image">
+            </div>
+        </section>
+        <hr color="white">
+        <section class="secondSection">
+            <span class="text-gray">what i have done so far</span>
+            <h1>Academics and Past Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                   <a href="https://sbu.ac.in/"> <img class="image-top" src="./images.png" alt=""></a>
+                    <div class="verticaltitle">
+                       BCA at Sarala Birla University<br>(2022-2025)
+                    </div>
+                    <div class="desc">
+                        i have been studying BCA Sarala Birla University, Ranchi<br>enrolled in 2022.
+                        securing Cgpa of <b>8.76</b>
+                        Studied Subjects like DSA,Computer Networks,Mathematics,Software Engineering
+                        <br>Programming Languages like C,C++,Java,Python
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="./code1.png" alt="">
+                    <div class="verticaltitle">
+                        Domains specialization & technologies
+                    </div>
+                    <div class="desc">
+                        <ul>  
+                                <li>Web developement</li>
+                                <li>Machine Learning</li>
+                                <li>Data Science</li>
+                        <li>Programing Languages:</li>
+                            <ul>
+                               <li>Python</li>
+                               <li>C</li>
+                               <li>C++</li>
+                               <li>Javascript</li>
+                            </ul>
+                    </ul>
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <a href="https://www.ardentcollaborations.com/"> <img class="image-top" src="./ardent.jpg" alt=""></a>
+                    <div class="verticaltitle" style="width: 300px;">
+                       Internship and Training at<br>
+                       Ardent Computech Pvt Ltd
+                       <br>(May-Jul 2024)
+                    </div>
+                    <div class="desc">
+                        Completed a 3 month taining and internship program
+                        on<b> Machine learning & Data Science</b>
+                        devloping knowlwdge over technologies like: Python,jupyter notebook,
+                        numpy,pandas,sci-kit learn,streamlit,git and github
+                        
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer1">
+                <div>
+                    <a href="https://www.linkedin.com/in/abhay-kumar-ba555521a/"><img src="./linkedin.png" height="40px" width="40px"><span style="position: relative; top: 23px; right: 55px;">Linkendin</span></a>
+                </div>
+            </div>
+            <div class="footer1">
+                <div>
+                    <a href="https://github.com/abhaykumar15"><img src="./github.png" height="40px" width="40px"><span style="position: relative; top: 23px; right: 43px;">Github</span></a>
+                </div>
+            </div>
+            <div class="footer1">
+                <div>
+                    <a href="./contact.html"><img src="./pngegg.png" height="30px" width="40px" style="position: relative; top:5px ;"><span style="position: relative; top: 32px; right: 43px;">E-mail</span></a>
+                </div>
+            </div>
+            <div class="footer1">
+                <div>
+                    <a href="https://x.com/Abhaychandra99"><img src="./twitter.png" height="40px" width="40px"><span style="position: relative; top: 23px; right: 26px;">X</span></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web developer', 'Data engineer','Backend engineer','Rapper!!'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
